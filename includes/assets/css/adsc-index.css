@@ -1,0 +1,19 @@
+.adsc_signature_wrapper canvas {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+.adsc_signature_wrapper button {
+    position: relative;
+    display: block; /* Make button a block to move to new line */
+    margin-top: 10px; /* Margin top to space button below the canvas */
+    border: 1px solid #28a745; /* Bootstrap success color for border */
+    background-color: transparent;
+    color: #28a745; /* Bootstrap success text color */
+    transition: background-color 0.3s ease;
+}
+
+.adsc_signature_wrapper button:hover {
+    background-color: #28a745; /* Fill background on hover */
+    color: white; /* Change text color to white on hover */
+}
